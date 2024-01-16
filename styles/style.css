@@ -6,9 +6,11 @@
 header {
     padding: 50px 240px;
 }
-body{
+
+body {
     width: 100%;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -39,7 +41,7 @@ nav li {
     font-size: 1rem;
 }
 
-nav li a {
+nav li > a {
     text-decoration: none;
     color: var(--Dark-02, #424247);
 }
@@ -54,9 +56,7 @@ nav li a {
 .banner-title {
     font-size: 4rem;
     font-weight: 700;
-
 }
-
 .btn-primary {
     border-radius: 8px;
     padding: 20px 25px;
@@ -66,10 +66,9 @@ nav li a {
     border: 0;
 }
 
-.btn-primary>span {
+ .btn-primary span {
     background: #FF5400;
     color: #FFF;
-
 }
 
 .banner img {
@@ -94,13 +93,14 @@ nav li a {
 .tours-content .text {
     font-size: 16px;
     font-weight: 400;
-    color: rgba(19, 19, 24, 0.70);
+    color: #5A5A5D;
 }
 
 .tours-content>li {
     font-size: 16px;
     font-weight: 400;
-    color: rgba(19, 19, 24, 0.70);
+    color: #131318;
+    margin-bottom: 16px;
 }
 
 .tours-content {
@@ -114,45 +114,41 @@ nav li a {
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
+    width: 174px;
+    height: 52px;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px;
 }
-
 .tours-text {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
-
 .tours-container {
     gap: 24px;
 }
-
 .tours-text h1 {
     font-size: 40px;
     font-weight: 800;
 }
-
 .tours-text p {
     font-size: 16px;
     font-weight: 400;
     color: rgba(19, 19, 24, 0.70);
 }
-
 .tours-img {
     width: 50%;
-    
 }
-
 .tours-img-container {
     border-radius: 16px;
     gap: 24px;
     align-self: center;
     margin: auto 0px;
-   
-  
-
 }
-/* 
-.tours-img-container .img {
+
+
+/* .tours-img-container .img { 
     width: 573px;
     height: 300px;
 }
@@ -180,7 +176,7 @@ nav li a {
 .tours-img-container .img-7 {
     width: 673px;
     height: 300px;
-} */
+ }  */
 
 .hotels .div {
     text-align: center;
@@ -206,7 +202,7 @@ nav li a {
     justify-content: center;
     /* margin-left: 135px;
     margin-right: 135px;
-    margin-bottom: 20px; */
+     margin-bottom: 20px;*/
 }
 
 .box {
@@ -224,15 +220,15 @@ nav li a {
     border-radius: 20px;
     width: 474px;
     height: 184px;
-    margin-left: 266px;
-    margin-right: 299px;
+    margin-left: 433px;
+    margin-right: 434px;
     margin-top: 20px;
-    align-items: center;
 }
 
 .newsletter {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 .newsletter-text {
@@ -254,6 +250,15 @@ nav li a {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
+}
+
+.line2 {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .newsletter-img {
@@ -283,6 +288,7 @@ nav li a {
     width: 393px;
     height: 52px;
     margin-bottom: 20px;
+    padding-left: 20px; 
 }
 
 .travel {
@@ -314,8 +320,7 @@ nav li a {
     margin-top: 100px;
     /* justify-content: center; */
     width: 1440px;
-   
-    padding-top: 110px ;
+    padding-top: 110px;
     padding-bottom: 110px;
 }
 
@@ -328,14 +333,14 @@ nav li a {
 .footer-img-rapper img {
     width: 40px;
     height: 46.673px;
-   
+
 }
 
 .footer-img-rapper h1 {
     font-size: 32px;
     font-weight: 800;
     justify-content: center;
- 
+
 }
 
 .footer-img-rapper span {
@@ -349,9 +354,6 @@ nav li a {
     margin-top: 15px;
     text-align: center;
 }
-
-
-
 .footer .icon {
     justify-content: center;
     margin-left: 633px;
@@ -359,21 +361,23 @@ nav li a {
     margin-top: 33px;
 }
 
-.line{
+.line {
     width: 472px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
-   margin: auto;
-   margin-top: 50PX;
-   margin-bottom: 50px;
+    margin: auto;
+    margin-top: 50PX;
+    margin-bottom: 50px;
 }
-.reserved p{
+
+.reserved p {
     font-size: 16px;
     font-weight: 300;
     color: #131318;
     text-align: center;
-    
+
 }
+
 .text {
     color: #5A5A5D;
 }
